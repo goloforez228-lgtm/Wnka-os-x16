@@ -48,4 +48,4 @@ functions.asm — Core library (I/O, string comparison, hardware interrupts).
 
 
 ⚖️ License
-(c) 2025 Wnka-soft. This project is provided "as-is" for educational purposes.
+(c) 2025 Wnka-soft. This project is provided "GNU-3.0 -- GPL-3.0".
