@@ -49,3 +49,16 @@ functions.asm — Core library (I/O, string comparison, hardware interrupts).
 
 ⚖️ License
 (c) 2025 Wnka-soft. This project is provided "GNU-3.0 -- GPL-3.0".
+
+
+
+
+🏗️ Regarding suffixes, the system has so-called suffixes that are associated with the version, for example: 0.1.1m
+There are several of them - m, b, g, d.
+The m suffix is ​​a minor update, but the version itself changes along with it. For example: 0.1.1m >> 0.1.2m
+The b suffix is ​​a major update, but not very stable.
+The version name also changes, for example: 0.1.1m >> 0.2.1b
+The g suffix indicates a major but stable update, usually following b, but in rare cases it's released without a non-stable version (e.g., 0.2.1b >> 0.2.1g) or when the non-stable 0.2.1g update hasn't been released (there's no b release).
+The final d suffix is ​​reserved for the developer and is released only after 15 days of the main release For m, b, and g versions, the version usually doesn't change during the early stages of development, and this version is only released at the last stage (without design) and the penultimate stage (without design, more bugs).
+The version is named something like this: for example, 0.2.1d >> 0.2.2d or 0.2.1d (developer version without design and with bugs).
+That's all for now.
